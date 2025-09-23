@@ -9,8 +9,6 @@ Requiere: biopython (usa pairwise2; el warning de deprecación es normal).
 
 Uso:
   python3 design_primers_two_files.py neander_target.fa human_nontarget.fa
-o simplemente (si usas los nombres por defecto):
-  python3 design_primers_two_files.py
 """
 
 import sys, os, csv, re
